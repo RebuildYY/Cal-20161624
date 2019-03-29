@@ -24,15 +24,18 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUy-st-lx4">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="251.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFg-kr-b9E">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFg-kr-b9E">
                                                 <rect key="frame" x="296" y="213" width="71" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="LFg-kr-b9E" secondAttribute="bottom" constant="2.5" id="HwF-vv-f2I"/>
+                                            <constraint firstAttribute="trailing" secondItem="LFg-kr-b9E" secondAttribute="trailing" constant="8" id="RX5-NM-wzs"/>
+                                        </constraints>
                                     </view>
                                     <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJk-5v-uZN">
                                         <rect key="frame" x="0.0" y="266.5" width="375" height="380.5"/>
@@ -163,7 +166,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="124.5" height="75.5"/>
                                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <state key="normal" title="Button"/>
+                                                                <state key="normal" title="0"/>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MF-5s-6Op">
                                                                 <rect key="frame" x="125.5" y="0.0" width="124" height="75.5"/>
@@ -179,8 +182,8 @@
                                                             </button>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstItem="9MF-5s-6Op" firstAttribute="width" secondItem="lEc-k1-vaD" secondAttribute="width" id="bVB-hF-lTs"/>
-                                                            <constraint firstItem="TTp-Xx-3CX" firstAttribute="width" secondItem="9MF-5s-6Op" secondAttribute="width" id="spj-jh-45e"/>
+                                                            <constraint firstItem="lEc-k1-vaD" firstAttribute="width" secondItem="9MF-5s-6Op" secondAttribute="width" id="x5O-xs-Ot8"/>
+                                                            <constraint firstItem="TTp-Xx-3CX" firstAttribute="width" secondItem="9MF-5s-6Op" secondAttribute="width" id="xRn-9a-e9X"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
